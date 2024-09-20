@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(42, 48, 48);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  position: fixed;
+  display: flex;
+  background-color: #5e5e5b;
+  width: 60%;
+  border-radius: 10px;
+  align-items: center;
+  padding: 10px;
+}
+
+.card-img {
+  border-radius: 10px;
+  width: 40%;
+  height: 70%;
+  padding-right: 50px;
+}
+
+.card-text {
+  color: white;
+}
